@@ -1,0 +1,9 @@
+<h3> {{filmsTwo.title}}</h3>
+    <div class="hero-container">
+    <ul class="hero-list">
+        
+        <li class="hero-list__item" *ngFor='let img of filmsTwo.fotos'>
+            <img src="{{img.src}}" alt="{{img.alt}}">
+        </li>
+    </ul>
+    </div>
